@@ -1,0 +1,119 @@
+
+
+.all{
+    position: absolute;
+    background-color: hsl(0, 0%, 94%);
+    width: 1479px;
+    height: 742px;
+}
+
+
+.big{
+    position: absolute;
+    width: 850px;
+    height: 600px;
+    left: 300px;
+    top:100px;
+    background-color: white;
+    border-radius: 20px 20px 150px 20px;
+}
+
+.containers{
+    position:absolute;
+    margin-top: 100px;
+   
+}
+
+
+
+label{
+    position: absolute;
+    color: hsl(0, 1%, 44%);
+    margin-top: -25px;
+    margin-left: 10px;
+}
+
+
+input{
+    position: absolute;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 37px;
+    font-family: 'Poppins', sans-serif;
+    border-style:solid;
+}
+
+input:active{
+    border-color: hsl(259, 100%, 65%);
+}
+
+
+
+.line{
+    position: absolute;
+    width: 750px ;
+    background-color: hsl(0, 0%, 86%);
+    top: 200px;
+    left:65px;
+    height: 2px;;
+}
+
+.circle{
+
+    position: absolute;
+    top:165px;
+    left:750px;
+    height: 70px;
+    width: 70px;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.img{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  hsl(259, 100%, 65%);
+}
+
+
+.results {
+    position: absolute;
+    left: 50px;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+    color: hsl(259, 100%, 65%);
+    font-size: 65px;
+    
+    width: 60px;
+}
+
+
+h2{
+    position: absolute;
+    color: black;
+    font-size: 75px;
+    top:-30px;
+    left: 100px;
+}
+
+
+P{
+    position: absolute;
+    color: hsl(0, 100%, 67%);
+    width: 500px;
+    top: 40px;
+    left: 250px;
+}
+
+
+button{
+    border-color: transparent;
+}
